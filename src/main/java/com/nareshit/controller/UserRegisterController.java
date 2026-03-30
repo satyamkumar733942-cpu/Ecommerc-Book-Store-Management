@@ -100,7 +100,12 @@ public class UserRegisterController {
 
 		}
 	}
-	  
+	 
+	 @GetMapping("/test")
+	 public String testPrject() {
+		 return "Project Running Successfully!🎃";
+	 }
+	 
 	 
 	 @GetMapping("/userDetails/{id}")
 	 public UserRequest	 getMethodName(@PathVariable Long id) {
