@@ -5,6 +5,7 @@ import java.net.HttpURLConnection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import com.nareshit.service.BooksExcelUploadService;
 import com.nareshit.utility.Constants;
 import com.nareshit.utility.Helper;
 
+@CrossOrigin(origins = "*")
 @RestController
 public class BooksExcelUploadController {
 
