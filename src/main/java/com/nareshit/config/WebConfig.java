@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
-		registry.addMapping("/**").allowedOrigins("https://exciting-wonder-production.up.railway.app")
+		registry.addMapping("/**").allowedOrigins("https://protective-motivation-production-1c9a.up.railway.app")
 				.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS").allowedHeaders("*").allowCredentials(true);
 	}
 }
