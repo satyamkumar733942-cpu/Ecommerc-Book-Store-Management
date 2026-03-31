@@ -16,7 +16,7 @@ import com.nareshit.model.ResponseMessage;
 import com.nareshit.service.CartModuleService;
 import com.nareshit.utility.Constants;
 
-@CrossOrigin(origins = "*")
+
 @RestController
 public class CartModuleController {
 	

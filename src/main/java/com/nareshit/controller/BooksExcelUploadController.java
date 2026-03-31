@@ -16,7 +16,7 @@ import com.nareshit.service.BooksExcelUploadService;
 import com.nareshit.utility.Constants;
 import com.nareshit.utility.Helper;
 
-@CrossOrigin(origins = "*")
+
 @RestController
 public class BooksExcelUploadController {
 

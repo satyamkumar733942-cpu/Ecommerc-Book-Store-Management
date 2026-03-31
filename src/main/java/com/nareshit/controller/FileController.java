@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.nareshit.entity.FilesEntity;
 import com.nareshit.repository.FileRepo;
 
-@CrossOrigin(origins = "*")
+
 @RestController
 public class FileController {
 	
